@@ -1,0 +1,29 @@
+site_name: TA Management Information
+theme:
+  name: material
+  logo: ua-logo.svg
+  palette: 
+    scheme: ualberta
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+nav:
+    - Information: index.md
+
+extra:
+  generator: false
+  social:
+      - icon: fontawesome/solid/globe
+        link: https://ua-compsci-ta.ca
+
+markdown_extensions:
+  - meta
+
+extra_css:
+  - css/extra.css
+
+
+
+copyright: Copyright &copy; 2022 TA Management System, Department of Computing Science
